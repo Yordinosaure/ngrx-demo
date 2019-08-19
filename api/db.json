@@ -1,0 +1,80 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastName": "Doe",
+      "address": "Rue de la station, 3",
+      "zip": "4000",
+      "city": "Liège",
+      "EMOwned": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Frederic",
+      "lastName": "Lemaire",
+      "address": "Chaussée de Bruxelles, 112",
+      "zip": "1300",
+      "city": "Wavre",
+      "EMOwned": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Yordi",
+      "lastName": "David",
+      "address": "Rue des Augustins, 21",
+      "zip": "4000",
+      "city": "Liège",
+      "EMOwned": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jonas",
+      "lastName": "Boudet",
+      "address": "Rue de la baleine, 38",
+      "zip": "4000",
+      "city": "Liège",
+      "EMOwned": [
+        4
+      ]
+    },
+    {
+      "name": "Bruce",
+      "lastName": "Willis",
+      "address": "Rue des Augustins,19",
+      "zip": "4320",
+      "city": "Oreye",
+      "id": 5
+    }
+  ],
+  "electrical-meter": [
+    {
+      "id": 1,
+      "brand": "Acuvim",
+      "model": "II"
+    },
+    {
+      "id": 2,
+      "brand": "ElitePro",
+      "model": "KL"
+    },
+    {
+      "id": 3,
+      "brand": "ElitePro",
+      "model": "XC"
+    },
+    {
+      "id": 4,
+      "brand": "ElitePro",
+      "model": "SC"
+    }
+  ]
+}

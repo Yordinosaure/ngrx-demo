@@ -1,0 +1,35 @@
+<div>
+  <button class="btn btn-primary" (click)="back()">Back to customer list</button>
+</div>
+<form [formGroup]="form">
+
+  <div class="form-group">
+    <label>Name:</label>
+    <input class="form-control" type="text" formControlName="name">    
+  </div>
+
+  <div class="form-group">
+    <label>Lastname:</label>
+    <input class="form-control" type="text" formControlName="lastName">   
+  </div>
+
+  <div class="form-group">
+    <label>Address:</label>
+    <input class="form-control" type="text" formControlName="address">
+  </div>
+
+  <div class="form-group">
+    <label>Zip:</label>
+    <input class="form-control" type="text" formControlName="zip">
+  </div>
+
+  <div class="form-group">
+    <label>City:</label>
+    <input class="form-control" type="text" formControlName="city">    
+  </div>
+  
+  <div class="form-group">
+    <button class="btn btn-success" (click)="save()">save</button>
+  </div>
+
+</form>

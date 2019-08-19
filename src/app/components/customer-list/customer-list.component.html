@@ -1,0 +1,23 @@
+<div>
+  <table class="table">
+    <thead>
+      <th>Name</th>
+      <th>Lastname</th>
+      <th>Address</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cust of (customerList$ | async)">
+        <td>{{cust.name}}</td>
+        <td>{{cust.lastName}}</td>
+        <td>{{cust.address}} <br> {{cust.zip}} {{cust.city}}</td>
+        <td>
+          <button class="btn btn-primary" (click)="edit(cust.id)"><i class="fas fa-pencil-alt"></i></button>
+          <button class="btn btn-danger" (click)="delete(cust.id)"><i class="fas fa-times"></i></button>
+          <button class="btn btn-info" (click)="toDetails(cust.id)">details</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-primary" (click)="addCust()"><i class="fas fa-plus"></i></button>
+</div>
